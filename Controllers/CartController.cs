@@ -17,7 +17,7 @@ namespace KidsShop.Controllers
         Cart Cart = new Cart();
 
         [HttpPost]
-        [Route("add/{item}")]
+        [Route("cart/add/{item}")]
         public void add([FromRoute] string item)
         {
             string sessionId = Request.Headers["sessionId"];
@@ -34,7 +34,7 @@ namespace KidsShop.Controllers
         }
 
         [HttpDelete]
-        [Route("remove/{item}")]
+        [Route("cart/remove/{item}")]
         public void remove([FromRoute] string item)
         {
             string sessionId = Request.Headers["sessionId"];
@@ -42,7 +42,7 @@ namespace KidsShop.Controllers
         }
 
         [HttpDelete]
-        [Route("decrease/{item}")]
+        [Route("cart/decrease/{item}")]
         public void decrease([FromRoute] string item)
         {
             string sessionId = Request.Headers["sessionId"];
