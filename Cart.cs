@@ -17,7 +17,7 @@ namespace KidsShop
             newcart.Id = Guid.NewGuid();
             newcart.items = new Dictionary<string, int>();
             cartList.Add(newcart);
-            File.WriteAllText("cart.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
+            File.WriteAllText("cartValues.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
             return newcart.Id;
         }
         public void addItem(Guid id, string item)
@@ -37,7 +37,7 @@ namespace KidsShop
             {
                 cart.items[item] = 1;
             }
-            File.WriteAllText("cart.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
+            File.WriteAllText("cartValues.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
         }
 
         public void removeItem(Guid id, string item)
@@ -51,7 +51,7 @@ namespace KidsShop
                     cart.items.Remove(product.Key);
                 }
             }
-            File.WriteAllText("cart.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
+            File.WriteAllText("cartValues.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
         }
 
         public void updateItem(Guid id, string item)
@@ -72,7 +72,7 @@ namespace KidsShop
                     }
                 }
             }
-            File.WriteAllText("cart.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
+            File.WriteAllText("cartValues.json", JsonConvert.SerializeObject(cartList, Formatting.Indented));
         }
 
 

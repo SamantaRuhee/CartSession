@@ -20,4 +20,3 @@ C:\Users\HP\source\repos\KidsShop\obj\Debug\netcoreapp3.1\KidsShop.MvcApplicatio
 C:\Users\HP\source\repos\KidsShop\obj\Debug\netcoreapp3.1\KidsShop.dll
 C:\Users\HP\source\repos\KidsShop\obj\Debug\netcoreapp3.1\KidsShop.pdb
 C:\Users\HP\source\repos\KidsShop\obj\Debug\netcoreapp3.1\KidsShop.genruntimeconfig.cache
-C:\Users\HP\source\repos\KidsShop\bin\Debug\netcoreapp3.1\cartValues.json
