@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hkmdIzeIv+3XP/+2bKaH5gMJ+Y/f2ZWWE5K80IEoYbK2eLjYke8QeoHwvDLlWogK4zjtjovs6VkVlbVvHjJioQ==",
+  "dgSpecHash": "pyhmGjxYnpFNtvP2Ta7EkziY382sjdmA5UcxkwOklD+n4N82uDVumkULzXvClSmxq5zLg2w/45ZfqXwBuB4N9g==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\source\\repos\\KidsShop\\KidsShop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\HP\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
